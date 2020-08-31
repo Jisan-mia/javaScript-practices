@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+/*    background-color: rgba(0, 0, 0)*/
+}
+main{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-btn-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    display: relative;
+}
+.flex-box-btn-div button{
+    margin: 10px;
+    overflow: hidden;
+}
+.flex-box-btn-div select{
+    padding: 5px 5px;
+    margin-top: 14px;
+    background-color: antiquewhite;
+    border-radius: 1px;
+}
+
+
+.others-btn{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content:space-around;
+    padding: 50px
+}
+
+.others-btn button{
+    margin: 10px
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+
+

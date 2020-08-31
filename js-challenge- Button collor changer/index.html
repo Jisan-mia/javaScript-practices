@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Button changer(JS)</title>
+</head>
+<body>
+   <main>
+        <h2>JS Challenge - Button color changer!</h2>
+        <div class="flex-box-btn-div">
+           <form action="">
+                <select class="btn " name="background" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">Blue</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-danger">Google</button>
+            <button class="btn btn-warning">Youtube</button>
+            <button class="btn btn-success">Yahoo!</button>
+        </div>
+        
+        
+        <div class="others-btn">
+            <button class="btn btn-primary">Hellow</button>
+            <button class="btn btn-dark">Hi</button>
+            <button class="btn btn-warning"> Wow!</button>
+            <button class="btn btn-info">It</button>
+            <button class="btn btn-secondary">You</button>
+            <button class="btn btn-primary">What?</button>
+            <button class="btn btn-danger">New</button>
+            <button class="btn btn-primary">Click</button>
+            <button class="btn btn-secondary">Calc</button>
+            <button class="btn btn-info">Mobile</button>
+        </div>
+    </main>
+    
+    
+    
+    <script src="main.js"
+    ></script>
+</body>
+</html>
