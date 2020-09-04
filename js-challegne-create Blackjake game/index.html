@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Create Blackjack Game(JS)</title>
+</head>
+<body>
+   <div class="container-1">
+       <h2>BLACKJAK GAME </h2>
+       <h3><span id="blackjack-result">Let's Play!</span></h3>
+       
+<!--       flex-blackjack-row-1 div of your and dealder-->
+       <div class="flex-blackjack-row-1">
+        
+         <div id="your-box">
+             <h2>You: <span id="your-blackjack-result">0</span></h2>
+             
+         </div>
+        
+          <div id="dealer-box">
+              <h2>Dealer: <sapn id="dealer-blackjack-result">0</sapn></h2>
+              
+          </div>
+           
+       </div>
+       
+<!--       flex-box-blackjack-row-2 of buttons-->
+       <div class="flex-blackjack-row-2">
+          
+           <div>
+               <button  id="blackjack-hit-btn" class="btn-lg btn-primary mr-2">Hit</button>
+               <button id="blackjcak-stand-btn" class="btn-lg btn-warning mr2">Stand</button>
+               <button id="blackjack-deal-btn" class="btn-lg btn-danger">Deal</button>
+           </div>
+           
+       </div>
+       
+<!--       flex-box-blackjack-row3 of table-->
+       <div class="flex-blackjack-row-3">
+             
+            <table border=1>
+                <tr>
+                    <th style="color: green">Wins</th>
+                    <th style="color: red" >Losses</th>
+                    <th style="color: orange" >Draws</th>
+                </tr>
+                <tr>
+                    <td> <span id="wins">0</span></td>
+                    <td> <span id="losses">0</span></td>
+                    <td> <span id="draws">0</span></td>
+                </tr>
+            </table>
+               
+        </div>
+   </div>
+   
+   
+   
+   
+    <script src="main.js"></script>
+</body>
+</html>
